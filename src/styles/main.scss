@@ -16,3 +16,33 @@ body {
   line-height: 1.6;
   color: $color-black;
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mug-wrap {
+  max-width: 220px;
+}
+.mug {
+  margin-top: 28px;
+  margin-left: 20px;
+  width: 100px;
+  height: 250px;
+  float: left;
+  border: 1px solid black;
+  position: relative;
+}
+.mug-water {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mug-volume {
+  float: right;
+  li {
+    margin-bottom: 24px;
+  }
+}
